@@ -2,9 +2,9 @@
 
 @section('content')
     @foreach ($lista_vestiti as $vestito)
-        <p>{{ $vestiti->name }}</p>
-        <p>{{ $vestiti->size }}</p>
-        <p>{{ $vestiti->color }}</p>
+        <p>{{ $vestito->name }}</p>
+        <p>{{ $vestito->size }}</p>
+        <p>{{ $vestito->color }}</p>
     @endforeach
 @endsection
 
